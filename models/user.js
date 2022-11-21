@@ -21,6 +21,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    is_authorised: {
+      type: Boolean,
+      required: true,
+    },
   },
   {
     timestamps: true,
